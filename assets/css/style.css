@@ -377,7 +377,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/img-home.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -1257,13 +1257,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #37423b;
-  font-size: 14px;
-  background: #eef0ef;
+  color: #1f1c1c;
+  font-size: 16px;
+  background: #fadc79;
+  height: 100%;
 }
 #footer .footer-top {
-  padding: 60px 0 30px 0;
-  background: #f9faf9;
+  padding: 30px 0 15px 0;
+  background: #fadc79;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1276,16 +1277,16 @@ section {
   font-weight: 700;
 }
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #777777;
+  color: #1f1c1c;
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #1f1c1c;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1296,8 +1297,8 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  line-height: 0.9;
-  color: #777777;
+  line-height: 0.5;
+  color: #1f1c1c;
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
@@ -1314,7 +1315,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #1f1c1c;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1380,7 +1381,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #e46c0b;
+  background: #ff7300;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1393,12 +1394,27 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #e46c0b;
+  background: #ff7300;
   color: #fff;
   text-decoration: none;
+}
+.desenvolvido{
+  text-align: center;
 }
 @media (max-width: 400px) {
 #footer h3{
     font-size: 1.4em;
   }
+  #footer .footer-top {
+    position: relative;
+    text-align: center;
+  }
+  #footer .footer-top .footer-links ul li {
+    display: grid;
+    text-align: center;
+  }
+  .desenvolvido {
+    padding: 0px 100px;
+  }
+
 }
