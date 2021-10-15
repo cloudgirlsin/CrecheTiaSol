@@ -491,15 +491,11 @@ section {
   color: #37423b;
 }
 
-.lista{
-  padding-left: 100px;
-}
-
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
   background: #e46c0b;
-  padding: 30px 0;
+  padding: 60px 30px 30px;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -787,26 +783,25 @@ section {
   box-sizing: content-box;
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
-  min-height: 136px;
+  min-height: 200px;
   border: 1px solid #eef0ef;
   position: relative;
   background: #fff;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 200px; /* tava 99 */
+  width: 90px;
   border-radius: 10px;
   border: 6px solid #fff;
   position: absolute;
   left: -45px;
 }
 .testimonials .testimonial-item h3 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 40px 0 5px 150px;
+  margin: 10px 0 5px 0;
   color: #111;
 }
 .testimonials .testimonial-item h4 {
-  padding-left: 30%;  
   font-size: 14px;
   color: #999;
   margin: 0;
