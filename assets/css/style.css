@@ -498,6 +498,10 @@ section {
   padding: 60px 30px 30px;
   color: #fff;
 }
+/* Usado na página sobre */
+#about-img {
+  padding-bottom: 30px;
+}
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 63px;
@@ -794,6 +798,10 @@ section {
   border: 6px solid #fff;
   position: absolute;
   left: -45px;
+}
+/* Usado na página sobre */
+.testimonial-img-sobre {
+  width: 115px;
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
