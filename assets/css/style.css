@@ -516,6 +516,15 @@ section {
   margin-bottom: 0;
 }
 
+.borda-sobre{
+  border: none;
+  border-radius: 40px 10px;
+}
+
+.fundo-sobre {
+  background: #fac9a0;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
