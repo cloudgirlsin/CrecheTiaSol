@@ -531,7 +531,12 @@ section {
 }
 
 .fundo-sobre {
-  background: #fac9a0;
+  background: #f77409;
+}
+
+.borda-depoimento{
+  border: none;
+  border-radius: 10px 10px;
 }
 
 /*--------------------------------------------------------------
