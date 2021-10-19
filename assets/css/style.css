@@ -830,6 +830,117 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Doações - Home
+--------------------------------------------------------------*/
+
+.doacoes-home{
+  background-color: #fffdaf;
+  transform: skewY(-3deg);
+}
+
+.doacoes-home-normal{
+  transform: skewY(3deg);
+}
+
+.doacoes-home-normal h3{
+  color: #E46C0B;
+}
+
+#botao-doacoes:hover{
+  background-color: #ff9946;
+}
+
+.icone-doacoes {
+  color: #E46C0B;
+  margin-right: 10px;
+}
+
+
+#frase-home{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+# Voluntariado - Home
+--------------------------------------------------------------*/
+
+.voluntariado-home{
+  background-color: #daffc9;
+  transform: skewY(3deg);
+}
+
+.voluntariado-home-normal{
+  transform: skewY(-3deg);
+}
+
+.voluntariado-home-normal h3{
+  color: #73A641;
+}
+
+.voluntariado-home .voluntariado-home-normal #voluntariado ul li i {
+  color: #73A641;
+}
+
+#botao-voluntariado {
+  background-color: #73A641;
+}
+
+#botao-voluntariado:hover {
+  background-color: #8ec754;
+}
+
+.icone-voluntarios {
+  color: #73A641;
+  margin-right: 10px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Galeria-Home
+--------------------------------------------------------------*/
+.testimonials .testimonial-wrap {
+  padding-left: 50px;
+} 
+
+.testimonials .testimonials-carousel,
+.testimonials .galeria-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item-home {
+  box-sizing: content-box;
+  padding: 30px 30px 30px 60px;
+  margin: 30px 15px;
+  min-height: 200px;
+  position: relative;
+  background: #fff;
+}
+.testimonials .testimonial-item-home .testimonial-img-home {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  border: 6px solid #fff;
+  position: absolute;
+}
+
+#titulo-galeria h2{
+  font-size: 24px;
+  font-weight: 500;
+  color: #f7994e; 
+}
+
+#titulo-galeria p{
+  font-weight: 700;
+  font-style: italic;
+  font-size: 34px;
+  color: #ffd400;
+  text-transform: none;
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonial-wrap {
@@ -855,6 +966,7 @@ section {
   position: absolute;
   left: -45px;
 }
+
 /* Usado na página sobre */
 .testimonial-img-sobre {
   width: 115px;
