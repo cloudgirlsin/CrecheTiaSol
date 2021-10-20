@@ -507,10 +507,7 @@ section {
   padding: 60px 30px 30px;
   color: #fff;
 }
-/* Usado na página sobre */
-#about-img {
-  padding-bottom: 30px;
-}
+
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 63px;
@@ -525,9 +522,12 @@ section {
   margin-bottom: 0;
 }
 
+/* Usado na página Sobre */
 .borda-sobre{
   border: none;
-  border-radius: 40px 10px;
+  border-radius: 40px 0 40px 0;
+  /* box-shadow: 7px 7px 2px rgba(247, 201, 160, 0.50); */
+  box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.50);
 }
 
 .fundo-sobre {
