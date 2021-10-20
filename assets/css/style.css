@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #F4C321;
+  color: #f4c321;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #F4C321;
+  background: #f4c321;
   color: #fff;
 }
 .back-to-top.active {
@@ -374,6 +374,15 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/*alteração na pag sobre*/
+#hero-sobre {
+  width: 100%;
+  height: 40vh;
+  background: url("../img/desenvolvedoras.jpg") top center;
+  background-size: cover;
+  color: #fff;
+}
+
 #hero {
   width: 100%;
   height: 80vh;
@@ -462,6 +471,7 @@ section {
 .section-title {
   padding-bottom: 40px;
 }
+
 .section-title h2 {
   font-size: 14px;
   font-weight: 500;
@@ -478,7 +488,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #F4C321;
+  background: #f4c321;
   margin: 4px 10px;
 }
 .section-title p {
@@ -495,8 +505,12 @@ section {
   margin-top: 73px;
   text-align: center;
   background: #e46c0b;
-  padding: 30px 0;
+  padding: 60px 30px 30px;
   color: #fff;
+}
+/* Usado na página sobre */
+#about-img {
+  padding-bottom: 30px;
 }
 @media (max-width: 992px) {
   .breadcrumbs {
@@ -512,9 +526,21 @@ section {
   margin-bottom: 0;
 }
 
+.borda-sobre {
+  border: none;
+  border-radius: 40px 10px;
+}
+
+.fundo-sobre {
+  background: #fac9a0;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about h2 {
+  color: #ff7300;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -770,6 +796,210 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Sobre - Home
+--------------------------------------------------------------*/
+.about-home h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ff7300;
+  font-family: "Poppins", sans-serif;
+}
+.about-home p{
+  color: #000000;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+.about-home .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #ff7300;
+  font-family: "Poppins", sans-serif;
+}
+.about-home video{
+  width:100%;
+}
+@media (max-width: 768px) {
+  .about-home video {
+    width:90%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Doações - Home
+--------------------------------------------------------------*/
+
+.doacoes-home {
+  background-color: #fffdaf;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  transform: skewY(-3deg);
+}
+.doacoes-home p{
+  text-align: justify;
+}
+
+.doacoes-home-normal {
+  transform: skewY(3deg);
+}
+
+.doacoes-home-normal h3 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #ff7300;
+  font-family: "Poppins", sans-serif;
+}
+
+#botao-doacoes {
+  background-color: #e46c0b;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#botao-doacoes:hover {
+  background-color: #ff9946;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.icone-doacoes {
+  color: #e46c0b;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#frase-home {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#foto-doacoes {
+  padding: 0 40px;
+}
+
+/*----------
+----------------------------------------------------
+# Voluntariado - Home
+--------------------------------------------------------------*/
+
+.voluntariado-home {
+  background: linear-gradient(
+      rgba(242, 255, 207, 0.5),
+      rgb(250, 236, 199)
+    ),
+    url("../img/voluntariado.png") fixed center center;
+  background-size: cover;
+  transform: skewY(3deg);
+}
+
+.voluntariado-home-normal {
+  transform: skewY(-3deg);
+}
+
+.voluntariado-home-normal h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  color: #ff7300;
+  font-family: "Poppins", sans-serif;
+}
+
+.voluntariado-home-normal p {
+  color: #000000;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.voluntariado-home .voluntariado-home-normal #voluntariado ul li i {
+  color: #73a641;
+}
+.voluntariado-lista {
+  list-style-type: none;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#botao-voluntariado {
+  background-color: #ff7300;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#botao-voluntariado:hover {
+  background: #e46c0b;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.icone-voluntarios {
+  color: #ff7300;
+  margin-right: 10px;
+}
+
+/*--------------------------------------------------------------
+# Galeria-Home
+--------------------------------------------------------------*/
+.section-title-fotos {
+  padding-bottom: 20px;
+}
+
+.testimonials .testimonial-wrap {
+  padding-left: 50px;
+}
+
+.testimonials .testimonials-carousel,
+.testimonials .galeria-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item-home {
+  box-sizing: content-box;
+  padding: 30px 30px 30px 60px;
+  margin: 30px 15px;
+  min-height: 200px;
+  position: relative;
+  background: #fff;
+}
+.testimonials .testimonial-item-home .testimonial-img-home {
+  width: 100%;
+  border-radius: 10px;
+  border: 6px solid #fff;
+  position: absolute;
+}
+
+#titulo-galeria h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ff7300;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .section-title h2::after {
+    display: none;
+    text-align: center;
+  }
+  .testimonials .testimonial-item-home {
+    box-sizing: content-box;
+    padding: 30px 30px 30px 60px;
+    margin: 30px 15px;
+    min-height: 192px;
+    position: relative;
+    background: #fff;
+  }
+  .testimonials .testimonial-item-home .testimonial-img-home {
+    width: 100%;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    position: absolute;
+  }
+}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonial-wrap {
@@ -795,6 +1025,11 @@ section {
   position: absolute;
   left: -45px;
 }
+
+/* Usado na página sobre */
+.testimonial-img-sobre {
+  width: 115px;
+}
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
@@ -808,7 +1043,7 @@ section {
 }
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #F4C321;
+  color: #f4c321;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -1204,7 +1439,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #F4C321;
+  border: 3px solid #f4c321;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1398,11 +1633,11 @@ section {
   color: #fff;
   text-decoration: none;
 }
-.desenvolvido{
+.desenvolvido {
   text-align: center;
 }
 @media (max-width: 400px) {
-#footer h3{
+  #footer h3 {
     font-size: 1.4em;
   }
   #footer .footer-top {
@@ -1416,5 +1651,4 @@ section {
   .desenvolvido {
     padding: 0px 100px;
   }
-
 }
