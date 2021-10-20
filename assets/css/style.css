@@ -810,6 +810,9 @@ section {
   font-family: "Poppins", sans-serif;
   text-align: justify;
 }
+.texto-video {
+  padding: 0 40px;
+}
 .about-home .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -956,12 +959,12 @@ section {
 .testimonials .galeria-home .testimonial-item-home {
   box-sizing: content-box;
   margin: 30px 15px;
+  min-height: 300px;
   position: relative;
   background: #fff;
 }
 .testimonials .testimonial-item-home .testimonial-img-home {
   width: 100%;
-  height: 360px;
   border-radius: 20px;
   border: 6px solid #fff;
   position: absolute;
@@ -974,10 +977,21 @@ section {
   color: #ff7300;
   font-family: "Poppins", sans-serif;
 }
+#titulo-galeria h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #f4c321;
+  margin: 4px 10px;
+}
 @media screen and (max-width: 399px) {
-  .section-title h2::after {
-    display: none;
+  #titulo-galeria h2 {
     text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff7300;
+    font-family: "Poppins", sans-serif;
   }
   .testimonials .testimonial-item-home {
     box-sizing: content-box;
@@ -995,10 +1009,9 @@ section {
     font-size: 28px;
   }
 }
-@media screen and and (min-width:400px) and (max-width: 766px) {
-  .section-title h2::after {
-    display: none;
-    text-align: center;
+@media screen and and (min-width: 400px) and (max-width: 766px) {
+  #titulo-galeria h2 {
+    font-size: 28px;
   }
   .testimonials .testimonial-item-home {
     box-sizing: content-box;
@@ -1012,11 +1025,8 @@ section {
     border-radius: 20px;
     border: 6px solid #fff;
   }
-  #titulo-galeria h2 {
-    font-size: 28px;
-  }
 }
-@media screen and (min-width:768px) and (max-width: 1200px) {
+@media screen and (min-width: 767px) and (max-width: 1200px) {
   .testimonials .testimonial-item-home {
     min-height: 450px;
   }
@@ -1029,7 +1039,19 @@ section {
   }
 }
 
-
+@media screen and (min-width: 1200px) {
+  .testimonials .testimonial-item-home {
+    min-height: 450px;
+  }
+  .testimonials .testimonial-item-home .testimonial-img-home {
+    width: 100%;
+    height: 360px;
+    border-radius: 20px;
+    border: 6px solid #fff;
+    position: absolute;
+    max-width: none;
+  }
+}
 
 /*--------------------------------------------------------------
 # Testimonials
