@@ -374,13 +374,35 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-/*alteração na pag sobre*/
+/* alteração na pag sobre*/
 #hero-sobre{
   width: 100%;
   height: 40vh;
   background: url("../img/desenvolvedoras.jpg") top center;
   background-size: cover; 
   color: #fff;
+}
+
+/* Usado na página Desenvolvedoras */
+#desenvolvedoras {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/desenvolvedoras/pexels-danny-meneses-943096.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+#desenvolvedoras h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#desenvolvedoras h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
 }
 
 #hero {
@@ -499,7 +521,6 @@ section {
   font-family: "Poppins", sans-serif;
   color: #37423b;
 }
-
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
@@ -507,10 +528,12 @@ section {
   padding: 60px 30px 30px;
   color: #fff;
 }
+
 /* Usado na página sobre */
 #about-img {
   padding-bottom: 30px;
 }
+
 @media (max-width: 992px) {
   .breadcrumbs {
     margin-top: 63px;
@@ -525,6 +548,7 @@ section {
   margin-bottom: 0;
 }
 
+/* Usado na página sobre */
 .borda-sobre{
   border: none;
   border-radius: 40px 10px;
@@ -751,7 +775,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Trainers
+# Mentees
 --------------------------------------------------------------*/
 .trainers .member {
   text-align: center;
@@ -760,11 +784,25 @@ section {
   border: 1px solid #eef0ef;
 }
 .trainers .member img {
-  margin: -1px -1px 30px -1px;
+  margin: 0px 0px 30px 0px;
 }
+
+/* Usado na página desenvolvedoras */
+.mentees .member img {
+  margin: 0px 0px 30px 0px;
+  border-radius: 1px 1px 40px 0;
+}
+
 .trainers .member .member-content {
   padding: 0 20px 30px 20px;
 }
+
+/* Usado na página desenvolvedoras */
+#mentees h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .trainers .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
