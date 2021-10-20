@@ -375,12 +375,34 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 /*alteração na pag sobre*/
-#hero-sobre{
+#hero-sobre {
   width: 100%;
-  height: 40vh;
-  background: url("../img/desenvolvedoras.jpg") top center;
+  height: 80vh;
+  background: url("../img/sobre/about-img-banner.JPG") top center;
   background-size: cover; 
+  position: relative;
+}
+#hero-sobre:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero-sobre h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
   color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#hero-sobre h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
 }
 
 #hero {
