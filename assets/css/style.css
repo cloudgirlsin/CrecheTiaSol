@@ -512,6 +512,18 @@ section {
   background: #F4C321;
   margin: 4px 10px;
 }
+
+/* Usado na página Sobre */
+.section-title-sobre p {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
+}
+
 .section-title p {
   margin: 0;
   margin: 0;
