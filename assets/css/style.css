@@ -956,7 +956,6 @@ section {
 .testimonials .galeria-home .testimonial-item-home {
   box-sizing: content-box;
   margin: 30px 15px;
-  min-height: 300px;
   position: relative;
   background: #fff;
 }
