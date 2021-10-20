@@ -165,7 +165,7 @@ h6 {
   background: #e46c0b;
   color: #fff;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
@@ -265,7 +265,7 @@ h6 {
   left: 100%;
   visibility: visible;
 }
-@media (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -289,7 +289,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -402,7 +402,7 @@ h6 {
 #hero .container {
   padding-top: 72px;
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   #hero .container {
     padding-top: 62px;
   }
@@ -437,12 +437,12 @@ h6 {
   background: #e46c0b;
   border: 2px solid #e46c0b;
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #hero {
     height: 100vh;
   }
@@ -512,7 +512,7 @@ section {
 #about-img {
   padding-bottom: 30px;
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .breadcrumbs {
     margin-top: 63px;
   }
@@ -571,7 +571,7 @@ section {
   background: #e46c0b;
   color: #fff;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .about .content .learn-more-btn {
     margin: 0 48px 0 0;
     padding: 6px 18px;
@@ -819,7 +819,7 @@ section {
 .about-home video {
   width: 100%;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .about-home video {
     width: 90%;
   }
@@ -953,18 +953,20 @@ section {
   overflow: hidden;
 }
 
-.testimonials .testimonial-item-home {
+.testimonials .galeria-home .testimonial-item-home {
   box-sizing: content-box;
   margin: 30px 15px;
-  min-height: 200px;
+  min-height: 300px;
   position: relative;
   background: #fff;
 }
 .testimonials .testimonial-item-home .testimonial-img-home {
   width: 100%;
-  border-radius: 10px;
+  height: 360px;
+  border-radius: 20px;
   border: 6px solid #fff;
   position: absolute;
+  max-width: none;
 }
 
 #titulo-galeria h2 {
@@ -973,8 +975,7 @@ section {
   color: #ff7300;
   font-family: "Poppins", sans-serif;
 }
-
-@media (max-width: 768px) {
+@media screen and (max-width: 399px) {
   .section-title h2::after {
     display: none;
     text-align: center;
@@ -987,11 +988,49 @@ section {
   }
   .testimonials .testimonial-item-home .testimonial-img-home {
     width: 100%;
-    border-radius: 10px;
+    height: 200px;
+    border-radius: 20px;
     border: 6px solid #fff;
-    position: absolute;
+  }
+  #titulo-galeria h2 {
+    font-size: 28px;
   }
 }
+@media screen and and (min-width:400px) and (max-width: 766px) {
+  .section-title h2::after {
+    display: none;
+    text-align: center;
+  }
+  .testimonials .testimonial-item-home {
+    box-sizing: content-box;
+    min-height: 192px;
+    position: relative;
+    background: #fff;
+  }
+  .testimonials .testimonial-item-home .testimonial-img-home {
+    width: 100%;
+    height: 115%;
+    border-radius: 20px;
+    border: 6px solid #fff;
+  }
+  #titulo-galeria h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width:768px) and (max-width: 1200px) {
+  .testimonials .testimonial-item-home {
+    min-height: 450px;
+  }
+  .testimonials .testimonial-item-home .testimonial-img-home {
+    width: 70%;
+    height: 126%;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: 6px solid #fff;
+  }
+}
+
+
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -1069,7 +1108,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #e46c0b;
 }
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .testimonials .testimonial-wrap {
     padding-left: 0;
   }
@@ -1179,7 +1218,7 @@ section {
 .cource-details-tabs .details p:last-child {
   margin-bottom: 0;
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .cource-details-tabs .nav-link {
     border: 0;
     padding: 15px;
@@ -1630,7 +1669,7 @@ section {
 .desenvolvido {
   text-align: center;
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   #footer h3 {
     font-size: 1.4em;
   }
