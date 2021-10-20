@@ -804,7 +804,7 @@ section {
   color: #ff7300;
   font-family: "Poppins", sans-serif;
 }
-.about-home p{
+.about-home p {
   color: #000000;
   font-size: 20px;
   font-family: "Poppins", sans-serif;
@@ -816,12 +816,12 @@ section {
   color: #ff7300;
   font-family: "Poppins", sans-serif;
 }
-.about-home video{
-  width:100%;
+.about-home video {
+  width: 100%;
 }
 @media (max-width: 768px) {
   .about-home video {
-    width:90%;
+    width: 90%;
   }
 }
 
@@ -835,7 +835,7 @@ section {
   font-family: "Poppins", sans-serif;
   transform: skewY(-3deg);
 }
-.doacoes-home p{
+.doacoes-home p {
   text-align: justify;
 }
 
@@ -885,10 +885,7 @@ section {
 --------------------------------------------------------------*/
 
 .voluntariado-home {
-  background: linear-gradient(
-      rgba(242, 255, 207, 0.5),
-      rgb(250, 236, 199)
-    ),
+  background: linear-gradient(rgba(242, 255, 207, 0.5), rgb(250, 236, 199)),
     url("../img/voluntariado.png") fixed center center;
   background-size: cover;
   transform: skewY(3deg);
@@ -958,7 +955,6 @@ section {
 
 .testimonials .testimonial-item-home {
   box-sizing: content-box;
-  padding: 30px 30px 30px 30px;
   margin: 30px 15px;
   min-height: 200px;
   position: relative;
@@ -985,8 +981,6 @@ section {
   }
   .testimonials .testimonial-item-home {
     box-sizing: content-box;
-    padding: 30px 30px 30px 60px;
-    margin: 30px 15px;
     min-height: 192px;
     position: relative;
     background: #fff;
