@@ -804,6 +804,7 @@ section {
 #mentees h1 {
   text-align: center;
   padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .trainers .member h4 {
@@ -1051,7 +1052,7 @@ section {
     font-size: 28px;
   }
 }
-@media screen and and (min-width: 400px) and (max-width: 766px) {
+@media screen and (min-width: 400px) and (max-width: 766px) {
   #titulo-galeria h2 {
     font-size: 28px;
   }
