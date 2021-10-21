@@ -380,10 +380,38 @@ h6 {
 /*alteração na pag sobre*/
 #hero-sobre{
   width: 100%;
+
   height: 40vh;
   background: url("../img/desenvolvedoras.jpg") top center;
   background-size: cover; 
+
+  height: 80vh;
+  background: url("../img/sobre/about-img-banner.JPG") top center;
+  background-size: cover;
+  position: relative;
+}
+#hero-sobre:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero-sobre h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+
   color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#hero-sobre h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
 }
 
 #hero {
@@ -527,6 +555,16 @@ section {
   background: #F4C321;
   margin: 4px 10px;
 }
+/* Usado na página Sobre */
+.section-title-sobre p {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
+}
 .section-title p {
   margin: 0;
   margin: 0;
@@ -554,7 +592,11 @@ section {
   color: #fff;
 }
 
+
 @media (max-width: 992px) {
+
+@media screen and (max-width: 992px) {
+
   .breadcrumbs {
     margin-top: 63px;
   }
@@ -569,6 +611,7 @@ section {
 }
 
 /* Usado na página Sobre */
+
 .borda-sobre{
   border: none;
   border-radius: 40px 0 40px 0;
@@ -578,6 +621,19 @@ section {
 
 .fundo-sobre {
   background: #fac9a0;
+
+.borda-imagens-sobre {
+  border: none;
+  border-radius: 40px 0 40px 0;
+  box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.50);
+}
+.background-depoimento-sobre {
+  background: #f77409;
+}
+.borda-depoimento-sobre {
+  border: none;
+  border-radius: 10px 10px;
+
 }
 
 /*--------------------------------------------------------------
@@ -807,6 +863,16 @@ section {
 .trainers .member .member-content {
   padding: 0 20px 30px 20px;
 }
+
+
+/* Usado na página desenvolvedoras */
+#mentees h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+
 .trainers .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
@@ -944,10 +1010,79 @@ testimonials .testimonial-item-home .testimonial-img-doacoes { /*DOACOES carross
   position: absolute;
 }
 
+
 #titulo-galeria h2{
   font-size: 24px;
   font-weight: 500;
   color: #f7994e; 
+
+#titulo-galeria h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ff7300;
+  font-family: "Poppins", sans-serif;
+}
+#titulo-galeria h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #f4c321;
+  margin: 4px 10px;
+}
+@media screen and (max-width: 399px) {
+  #titulo-galeria h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff7300;
+    font-family: "Poppins", sans-serif;
+  }
+  .testimonials .testimonial-item-home {
+    box-sizing: content-box;
+    min-height: 192px;
+    position: relative;
+    background: #fff;
+  }
+  .testimonials .testimonial-item-home .testimonial-img-home {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    border: 6px solid #fff;
+  }
+  #titulo-galeria h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 766px) {
+  #titulo-galeria h2 {
+    font-size: 28px;
+  }
+  .testimonials .testimonial-item-home {
+    box-sizing: content-box;
+    min-height: 192px;
+    position: relative;
+    background: #fff;
+  }
+  .testimonials .testimonial-item-home .testimonial-img-home {
+    width: 100%;
+    height: 115%;
+    border-radius: 20px;
+    border: 6px solid #fff;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+  .testimonials .testimonial-item-home {
+    min-height: 450px;
+  }
+  .testimonials .testimonial-item-home .testimonial-img-home {
+    width: 70%;
+    height: 126%;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: 6px solid #fff;
+  }
+
 }
 
 #titulo-galeria p{
@@ -985,7 +1120,7 @@ testimonials .testimonial-item-home .testimonial-img-doacoes { /*DOACOES carross
   left: -45px;
 }
 
-/* Usado na página sobre */
+/* Usado na página Sobre */
 .testimonial-img-sobre {
   width: 115px;
 }
