@@ -377,10 +377,32 @@ h6 {
 /* Usado na página Sobre */
 #hero-sobre {
   width: 100%;
-  height: 40vh;
-  background: url("../img/desenvolvedoras.jpg") top center;
+  height: 80vh;
+  background: url("../img/sobre/about-img-banner.JPG") top center;
   background-size: cover;
+  position: relative;
+}
+#hero-sobre:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero-sobre h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
   color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#hero-sobre h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
 }
 
 /* Usado na página Desenvolvedoras */
@@ -513,6 +535,16 @@ section {
   background: #f4c321;
   margin: 4px 10px;
 }
+/* Usado na página Sobre */
+.section-title-sobre p {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #37423b;
+}
 .section-title p {
   margin: 0;
   margin: 0;
@@ -529,11 +561,6 @@ section {
   padding: 60px 30px 30px;
   color: #fff;
 }
-/* Usado na página sobre */
-#about-img {
-  padding-bottom: 30px;
-}
-
 @media screen and (max-width: 992px) {
   .breadcrumbs {
     margin-top: 63px;
@@ -549,16 +576,15 @@ section {
 }
 
 /* Usado na página Sobre */
-.borda-sobre {
+.borda-imagens-sobre {
   border: none;
-  border-radius: 40px 10px;
+  border-radius: 40px 0 40px 0;
+  box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.50);
 }
-
-.fundo-sobre {
+.background-depoimento-sobre {
   background: #f77409;
 }
-
-.borda-depoimento{
+.borda-depoimento-sobre {
   border: none;
   border-radius: 10px 10px;
 }
@@ -1122,7 +1148,7 @@ section {
   left: -45px;
 }
 
-/* Usado na página sobre */
+/* Usado na página Sobre */
 .testimonial-img-sobre {
   width: 115px;
 }
