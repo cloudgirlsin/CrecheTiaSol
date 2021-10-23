@@ -435,12 +435,6 @@ alteração na pag voluntariado
   font-size: 24px;
 }
 
-/* Usado na página Projeto */
-
-#hero-projeto {
-  width: 100%;
-  height: 80vh;
-  background: url("../img/projeto/banner.JPG") top center;
 /* Usado na página Desenvolvedoras */
 #desenvolvedoras {
   width: 100%;
