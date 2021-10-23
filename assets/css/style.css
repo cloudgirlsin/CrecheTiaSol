@@ -1383,20 +1383,20 @@ section {
   }
 }
 
-/*----------------- Página Projetos ---------------------------*/
+/*----------------- Página Atividades ---------------------------*/
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 
-#hero-projeto {
+#hero-atividades {
   width: 100%;
   height: 80vh;
-  background: url("../img/projeto/banner.JPG") top center;
+  background: url("../img/atividades/banner.JPG") top center;
   background-size: cover;
   position: relative;
 }
-#hero-projeto:before {
+#hero-atividades:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -1405,7 +1405,7 @@ section {
   left: 0;
   right: 0;
 }
-#hero-projeto h1 {
+#hero-atividades h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -1413,7 +1413,7 @@ section {
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-#hero-projeto h2 {
+#hero-atividades h2 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
@@ -1504,19 +1504,19 @@ section {
   height: 400px;
 }
 
-#frase-projeto{
+#frase-atividades{
   margin-top: 60px;
   font-size: 2.0em;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  transform: skewY(-3deg);
+  transform: skewY(-4deg);
 }
 
 #frase-autor {
   font-size: 1.5em;
   text-align: right;
   font-family: "Poppins", sans-serif;
-  transform: skewY(-3deg);
+  transform: skewY(-4deg);
 }
 
 #titulo-galeria p {
@@ -1527,7 +1527,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.borda-projeto {
+.borda-atividades {
   border: none;
   border-radius: 40px 0 40px 0;
   box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.50);
