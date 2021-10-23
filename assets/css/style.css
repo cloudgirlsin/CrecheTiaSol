@@ -441,32 +441,6 @@ alteração na pag voluntariado
   width: 100%;
   height: 80vh;
   background: url("../img/projeto/banner.JPG") top center;
-  background-size: cover;
-  position: relative;
-}
-#hero-projeto:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-#hero-projeto h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-#hero-projeto h2 {
-  color: #eee;
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
 /* Usado na página Desenvolvedoras */
 #desenvolvedoras {
   width: 100%;
@@ -1415,15 +1389,53 @@ section {
   }
 }
 
+/*----------------- Página Projetos ---------------------------*/
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero-projeto {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/projeto/banner.JPG") top center;
+  background-size: cover;
+  position: relative;
+}
+#hero-projeto:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero-projeto h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#hero-projeto h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+
 .events .card {
   border: 0;
   padding: 0 30px;
-  margin-bottom: 60px;
+  margin: 20px 0 60px 0;
   position: relative;
 }
+
 .events .card-img {
   width: calc(100% + 60px);
   margin-left: -30px;
@@ -1443,6 +1455,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
+  font-family: "Poppins", sans-serif;
 }
 .events .card-title {
   font-weight: 700;
@@ -1456,6 +1469,16 @@ section {
 .events .card-text {
   color: #5e5e5e;
 }
+
+.events .card-text span {
+  color: #e46c0b;
+}
+
+.events .card-text li {
+  list-style: none;
+  text-align: left;
+}
+
 .events .read-more a {
   color: #777777;
   text-transform: uppercase;
@@ -1475,6 +1498,41 @@ section {
 .events .card:hover .card-body .card-title a {
   color: #e46c0b;
 }
+
+/*--------------------- Atividades da Creche ---------------------*/
+
+.secao-frase{
+
+  background-color: #fffdaf;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  transform: skewY(3deg);
+}
+
+#frase-projeto{
+  font-size: 2.5em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#frase-autor {
+  font-size: 2.0em;
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+}
+
+#titulo-galeria p {
+
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Pricing
