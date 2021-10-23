@@ -411,7 +411,7 @@ alteração na pag voluntariado
 #hero-sobre {
   width: 100%;
   height: 80vh;
-  background: url("../img/doacoes.jpg") top center;
+  background: url("../img/sobre/about-img-banner.JPG") top center;
   background-size: cover;
   position: relative;
 }
@@ -1011,6 +1011,13 @@ section {
 }
 .doacoes-home p {
   text-align: justify;
+}
+#hero-doacoes {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/doacoes.jpg") top center;
+  background-size: cover;
+  position: relative;
 }
 
 .doacoes-home-normal {
