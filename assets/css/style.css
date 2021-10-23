@@ -1465,20 +1465,20 @@ section {
   }
 }
 
-/*----------------- Página Projetos ---------------------------*/
+/*----------------- Página atividades ---------------------------*/
 
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 
-#hero-projeto {
+#hero-atividades {
   width: 100%;
   height: 80vh;
-  background: url("../img/projeto/banner.JPG") top center;
+  background: url("../img/atividades/banner.JPG") top center;
   background-size: cover;
   position: relative;
 }
-#hero-projeto:before {
+#hero-atividades:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -1487,7 +1487,7 @@ section {
   left: 0;
   right: 0;
 }
-#hero-projeto h1 {
+#hero-atividades h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -1495,7 +1495,7 @@ section {
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-#hero-projeto h2 {
+#hero-atividades h2 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
