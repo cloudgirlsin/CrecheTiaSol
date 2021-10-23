@@ -1,4 +1,4 @@
-<p align=center><img src="https://github.com/cloudgirlsin/CrecheTiaSol/blob/desenvolvedoras/assets/img/logo_tiasol.png" width=110 ></p>
+<p align=center><img src="https://github.com/cloudgirlsin/CrecheTiaSol/blob/desenvolvedoras/assets/img/logo_tiasol.png" width=200 ></p>
 <h1 align=center>Site da Creche Tia Sol</h1>
 
 <p align=center><img src= "https://img.shields.io/static/v1?label=Status&message=Pronto&color=green&style=flat"> 
