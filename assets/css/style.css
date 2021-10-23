@@ -372,6 +372,36 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+alteração na pag voluntariado
+--------------------------------------------------------------*/
+
+#hero-voluntariado {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/volutariado-voluntariado.jpg') top center;
+  background-size: cover;
+  color: #fff;
+}
+
+/* alteração  na pagina voluntariado*/
+.section-title-voluntariado {
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+/* Alteração na pagina voluntariado*/
+.form-control-voluntariado {
+  border-color: #e46c0b;
+  background: #f3f1f4;
+}
+
+.h2-titulo-voluntariado {
+  color: #e46c0b;
+}
+
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 /* Usado na página Sobre */
