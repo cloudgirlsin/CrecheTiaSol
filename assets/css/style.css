@@ -964,6 +964,16 @@ section {
   font-weight: 500;
 }
 
+#footer a{
+  transition: 400ms;
+}
+
+#footer a:hover {
+  color: #e46c0b;
+  font-weight: 700;
+  transition: 400ms;
+}
+
 /*--------------------------------------------------------------
 # Galeria-Home
 --------------------------------------------------------------*/
