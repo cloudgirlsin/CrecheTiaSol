@@ -940,6 +940,30 @@ section {
   margin-right: 10px;
 }
 
+.cotacao-home {
+  padding-top: 20px;
+  background: linear-gradient( rgba(255, 255, 255, 1), rgb(255, 233, 159, 1)100%);
+}
+
+#botao-cotacao {
+  background-color: #e46c0b;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#botao-cotacao:hover {
+  background-color: #ff9946;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.cotacao-home #frase-cotacao {
+  margin-bottom: 1.0rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 /*--------------------------------------------------------------
 # Galeria-Home
 --------------------------------------------------------------*/
@@ -1009,7 +1033,7 @@ section {
     font-size: 28px;
   }
 }
-@media screen and and (min-width: 400px) and (max-width: 766px) {
+@media screen and (min-width: 400px) and (max-width: 766px) {
   #titulo-galeria h2 {
     font-size: 28px;
   }
