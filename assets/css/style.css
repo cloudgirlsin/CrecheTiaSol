@@ -1465,7 +1465,9 @@ section {
   }
 }
 
-/*----------------- Página atividades ---------------------------*/
+
+/*----------------- Página Atividades ---------------------------*/
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1586,19 +1588,19 @@ section {
   height: 400px;
 }
 
-#frase-projeto{
+#frase-atividades{
   margin-top: 60px;
   font-size: 2.0em;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  transform: skewY(-3deg);
+  transform: skewY(-4deg);
 }
 
 #frase-autor {
   font-size: 1.5em;
   text-align: right;
   font-family: "Poppins", sans-serif;
-  transform: skewY(-3deg);
+  transform: skewY(-4deg);
 }
 
 #titulo-galeria p {
@@ -1609,7 +1611,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.borda-projeto {
+.borda-atividades {
   border: none;
   border-radius: 40px 0 40px 0;
   box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.50);
