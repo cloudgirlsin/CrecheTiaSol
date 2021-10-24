@@ -1696,6 +1696,36 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.display-form-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.topicos-destacados {
+  color: #e46c0b;
+  font-weight: bold;
+}
+
+.form-control-contato {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.box-contato {
+  border: 1px solid #e46c0b;  
+  background-color: #fadc79;
+  color: grey;
+  font-size: 15px;
+  padding: 10px;
+  box-shadow: none;
+}
+
+.box-contato:focus {
+  background-color: #fff;
+  border: 1px solid #e46c0b;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
 .contact {
   padding-top: 5px;
 }
@@ -1808,8 +1838,19 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-  background: #e46c0b;
+  transition: 1s all;
+  background: #ff9946;
 }
+
+.div-mapa-creche {
+  padding: 20px 0px 20px 0px;
+}
+
+.mapa-creche {
+  box-shadow: 2px 2px 2px 0 grey;
+  border: 1px solid #e46c0b;   
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1826,6 +1867,7 @@ section {
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Footer
