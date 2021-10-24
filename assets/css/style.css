@@ -377,29 +377,28 @@ alteração na pag voluntariado
 
 #hero-voluntariado {
   width: 100%;
-  height: 100vh;
-  background: url('../img/volutariado-voluntariado.jpg') top center;
+  height: 50vh;
+  background: url("../img/voluntariado2.jpg") top center;
   background-size: cover;
   color: #fff;
 }
-
+#hero-voluntariado h1 {
+  margin-top: 10%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
 /* alteração  na pagina voluntariado*/
 .section-title-voluntariado {
   text-align: center;
   padding-bottom: 30px;
   position: relative;
 }
-
-/* Alteração na pagina voluntariado*/
-.form-control-voluntariado {
-  border-color: #e46c0b;
-  background: #f3f1f4;
-}
-
 .h2-titulo-voluntariado {
   color: #e46c0b;
 }
-
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -407,8 +406,8 @@ alteração na pag voluntariado
 /* Usado na página Sobre */
 #hero-sobre {
   width: 100%;
-  height: 80vh;
-  background: url("../img/sobre/about-img-banner.JPG") top center;
+  height: 50vh;
+  background: url("../img/sobre.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -422,7 +421,7 @@ alteração na pag voluntariado
   right: 0;
 }
 #hero-sobre h1 {
-  margin: 0;
+  margin-top: 10%;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -434,28 +433,61 @@ alteração na pag voluntariado
   margin: 10px 0 0 0;
   font-size: 24px;
 }
-
-/* Usado na página Desenvolvedoras */
-#desenvolvedoras {
+/* Usado na página Contato */
+#hero-contato {
   width: 100%;
-  height: 80vh;
-  background: url("../img/desenvolvedoras/pexels-danny-meneses-943096.jpg") top center;
+  height: 50vh;
+  background: url("../img/contato.jpg") top center;
   background-size: cover;
   position: relative;
 }
-#desenvolvedoras h1 {
-  margin: 0;
+#hero-contato:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero-contato h1 {
+  margin-top: 10%;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-#desenvolvedoras h2 {
+#hero-contato h2 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
+/* Usado na página Desenvolvedoras */
+#hero-desenvolvedoras {
+  width: 100%;
+  height: 50vh;
+  background: url("../img/desenvolvedoras/pexels-danny-meneses-943096.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+#hero-desenvolvedoras h1 {
+  margin-top: 10%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero-desenvolvedoras h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+/* Usado na página Projeto */
 
 #hero {
   width: 100%;
@@ -609,7 +641,9 @@ section {
 .borda-imagens-sobre {
   border: none;
   border-radius: 40px 0 40px 0;
+
   box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.50);
+
 }
 .background-depoimento-sobre {
   background: #f77409;
@@ -844,6 +878,7 @@ section {
 }
 .trainers .member img {
   margin: 0px 0px 30px 0px;
+
 }
 
 /* Usado na página desenvolvedoras */
@@ -851,6 +886,7 @@ section {
   margin: 0px 0px 30px 0px;
   border-radius: 1px 1px 40px 0;
 }
+
 
 .trainers .member .member-content {
   padding: 0 20px 30px 20px;
@@ -926,6 +962,13 @@ section {
     width: 90%;
   }
 }
+.img-fluid-home {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 40px 0 40px 0;
+  box-shadow: 5px 5px 1px rgb(227 108 12 / 50%);
+}
 
 /*--------------------------------------------------------------
 # Doações - Home
@@ -940,7 +983,21 @@ section {
 .doacoes-home p {
   text-align: justify;
 }
-
+#hero-doacoes {
+  width: 100%;
+  height: 50vh;
+  background: url("../img/doacoes.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+#hero-doacoes h1 {
+  margin-top: 10%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
 .doacoes-home-normal {
   transform: skewY(3deg);
 }
@@ -1041,7 +1098,10 @@ section {
 
 .cotacao-home {
   padding-top: 20px;
-  background: linear-gradient( rgba(255, 255, 255, 1), rgb(255, 233, 159, 1)100%);
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgb(255, 233, 159, 1) 100%
+  );
 }
 
 #botao-cotacao {
@@ -1057,13 +1117,13 @@ section {
 }
 
 .cotacao-home #frase-cotacao {
-  margin-bottom: 1.0rem;
+  margin-bottom: 1rem;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
 
-#footer a{
+#footer a {
   transition: 400ms;
 }
 
@@ -1179,7 +1239,7 @@ section {
   .testimonials .testimonial-item-home .testimonial-img-home {
     width: 100%;
     height: 360px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 6px solid #fff;
     position: absolute;
     max-width: none;
@@ -1249,7 +1309,7 @@ section {
   margin: 15px auto 15px auto;
 }
 .testimonials .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 70px;
   position: relative;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet {
@@ -1383,15 +1443,55 @@ section {
   }
 }
 
+
+/*----------------- Página Atividades ---------------------------*/
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero-atividades {
+  width: 100%;
+  height: 50vh;
+  background: url("../img/atividades.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+#hero-atividades:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#hero-atividades h1 {
+  margin-top: 10%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#hero-atividades h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+
 .events .card {
   border: 0;
   padding: 0 30px;
-  margin-bottom: 60px;
+  margin: 20px 0 60px 0;
   position: relative;
 }
+
 .events .card-img {
   width: calc(100% + 60px);
   margin-left: -30px;
@@ -1411,6 +1511,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
+  font-family: "Poppins", sans-serif;
 }
 .events .card-title {
   font-weight: 700;
@@ -1424,6 +1525,16 @@ section {
 .events .card-text {
   color: #5e5e5e;
 }
+
+.events .card-text span {
+  color: #e46c0b;
+}
+
+.events .card-text li {
+  list-style: none;
+  text-align: left;
+}
+
 .events .read-more a {
   color: #777777;
   text-transform: uppercase;
@@ -1443,6 +1554,47 @@ section {
 .events .card:hover .card-body .card-title a {
   color: #e46c0b;
 }
+
+/*--------------------- Atividades da Creche ---------------------*/
+
+.secao-frase{
+
+  background-color: #fffdaf;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  transform: skewY(4deg);
+  height: 400px;
+}
+
+#frase-atividades{
+  margin-top: 60px;
+  font-size: 2.0em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  transform: skewY(-4deg);
+}
+
+#frase-autor {
+  font-size: 1.5em;
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  transform: skewY(-4deg);
+}
+
+#titulo-galeria p {
+
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.borda-atividades {
+  border: none;
+  border-radius: 40px 0 40px 0;
+  box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.50);
+}
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1544,6 +1696,36 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.display-form-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+.topicos-destacados {
+  color: #e46c0b;
+  font-weight: bold;
+}
+
+.form-control-contato {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.box-contato {
+  border: 1px solid #e46c0b;  
+  background-color: #fadc79;
+  color: grey;
+  font-size: 15px;
+  padding: 10px;
+  box-shadow: none;
+}
+
+.box-contato:focus {
+  background-color: #fff;
+  border: 1px solid #e46c0b;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
 .contact {
   padding-top: 5px;
 }
@@ -1656,8 +1838,19 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-  background: #e46c0b;
+  transition: 1s all;
+  background: #ff9946;
 }
+
+.div-mapa-creche {
+  padding: 20px 0px 20px 0px;
+}
+
+.mapa-creche {
+  box-shadow: 2px 2px 2px 0 grey;
+  border: 1px solid #e46c0b;   
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1674,6 +1867,7 @@ section {
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Footer

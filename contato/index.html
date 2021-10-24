@@ -55,8 +55,8 @@
           <li><a href="../index.html">Home</a></li>
           <li><a href="../sobre/index.html">Sobre</a></li>
           <li><a href="../doacoes/index.html">Doações</a></li>
-          <li><a href="../voluntarias/index.html">Voluntárias</a></li>
-          <li><a href="../projetos/index.html">Projetos</a></li>
+          <li><a href="../voluntariado/index.html">Voluntariado</a></li>
+          <li><a href="../atividades/index.html">Atividades</a></li>
           <li><a class="active" href="../contato/index.html">Contato</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -65,56 +65,66 @@
   </header><!-- End Header -->
 
   <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs" data-aos="fade-in">
-      <div class="container">
-        <h2>Contato</h2>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero-contato" class="d-flex justify-content-center align-items-center">
+      <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Contato</h1>
       </div>
-    </div><!-- End Breadcrumbs -->
+    </section>
+    <!-- End Hero -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="row mt-5">
-          <h2>Fale Conosco</h2>
+          <h2 class = "topicos-destacados">Fale Conosco</h2>
           <p>Fique à vontade para entrar em contato</p>
         </div>
 
-        <div class="row mt-5">
+        <div class="display-form-contato">
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="form-row">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label>Nome</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
+              <div class="coluna-esquerda">
+                <div class="form-group">
+                  <label for="nome" class="col-form-label">Nome</label>
+                  <input type="text" name="name" class="form-control box-contato" id="name" placeholder="Seu Nome" required>
+                  <div class="validate"></div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label>Email</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
+                <div class="form-group">
+                  <label for="email" class="col-form-label">Email</label>
+                  <input type="email" class="form-control box-contato" name="email" id="email" placeholder="seu_email@exemplo.com.br" required>
+                  <div class="validate"></div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label>Telefone</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu Telefone" required>
+                <div class="form-group">
+                  <label for="tel" class="col-form-label">Telefone</label>
+                  <input type="tel" class="form-control box-contato" name="tel" id="tel" placeholder="(88) 88888-8888" required>
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <label for="subject" class="col-form-label">Assunto</label>
+                  <select class="form-control box-contato" name="subject" id="subject" required>
+                    <option value="">Selecione um tópico</option>
+                    <option value="Matrículas">Matrículas</option>
+                    <option value="Dúvidas sobre a Creche da Tia Sol">Dúvidas sobre a Creche da Tia Sol</option>
+                    <option value="Outros">Outros</option>
+                  </select> 
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <label>Assunto</label>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
+              <div class="coluna-direita">
+                <div class="form-group">
+                  <label for="mensagem" class="col-form-label">Mensagem</label>
+                  <textarea class="form-control box-contato" name="message" rows="10" placeholder="Mensagem" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Carregando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Sua mensagem foi enviada. Obrigada!</div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
               </div>
-              <div class="form-group mt-3">
-                <label>Mensagem</label>
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Carregando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada. Obrigada!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
             </form>
 
           </div>
@@ -122,12 +132,12 @@
         </div>
 
         <div class="row mt-5">
-        <h2>Nossa Localização</h2>
+        <h2 class = "topicos-destacados">Nossa Localização</h2>
         <p>Endereço da Creche da Tia Sol</p>
         </div>
 
-        <div data-aos="fade-up">
-          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7778.3485320368345!2d-38.46791899000615!3d-12.896513428766204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f1e1b884c3ce093!2sCreche%20Escola%20Comunit%C3%A1ria%20Tia%20Sol!5e0!3m2!1spt-BR!2sbr!4v1634085399216!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class = "div-mapa-creche" data-aos="fade-up">
+          <iframe class = "mapa-creche" style="width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7778.3485320368345!2d-38.46791899000615!3d-12.896513428766204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f1e1b884c3ce093!2sCreche%20Escola%20Comunit%C3%A1ria%20Tia%20Sol!5e0!3m2!1spt-BR!2sbr!4v1634085399216!5m2!1spt-BR!2sbr" width="600" height="450" style="" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
       </div>
@@ -147,8 +157,8 @@
             <p>
               1ª Travessa São Bartolomeu nº 49 - Pirajá<br>
               Salvador - BA - CEP: 41295-010<br>
-              <strong>Telefone: </strong>(71) 98698-8320<br>
-              <strong>Email:</strong>xxxx@xxxxx.com.br<br>
+              <strong>Telefone: </strong> <a href="tel:+5571986988320" class="contato-footer">(71) 98698-8320</a><br>
+              <strong>Email:</strong> <a href="mailto:contato@crechetiasol.com.br" class="contato-footer">contato@crechetiasol.com.br </a><br>
             </p>
           </div>
 
@@ -163,9 +173,9 @@
               <a href="https://www.instagram.com/creche_escolatiasol/" class="instagram"><i
                   class="bx bxl-instagram"></i></a>
             </div>
-            
+
           </div>
-          <p class="desenvolvido">Desenvolvido por <a href="./design/index.html">Mentees Cloud Girls</a></p>
+          <p class="desenvolvido">Desenvolvido por <a href="../desenvolvedoras/index.html">Mentees Cloud Girls</a></p>
         </div>
       </div>
     </div>
@@ -174,7 +184,8 @@
   <!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/aos/aos.js"></script>
