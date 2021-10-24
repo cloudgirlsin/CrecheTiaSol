@@ -377,29 +377,25 @@ alteração na pag voluntariado
 
 #hero-voluntariado {
   width: 100%;
-  height: 100vh;
-
-  background: url("../img/volutariado-voluntariado.jpg") top center;
-
- 
-
+  height: 50vh;
+  background: url("../img/voluntariado2.jpg") top center;
   background-size: cover;
   color: #fff;
 }
-
+#hero-voluntariado h1 {
+  margin-top: 10%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
 /* alteração  na pagina voluntariado*/
 .section-title-voluntariado {
   text-align: center;
   padding-bottom: 30px;
   position: relative;
 }
-
-/* Alteração na pagina voluntariado*/
-.form-control-voluntariado {
-  border-color: #e46c0b;
-  background: #f3f1f4;
-}
-
 .h2-titulo-voluntariado {
   color: #e46c0b;
 }
@@ -410,8 +406,8 @@ alteração na pag voluntariado
 /* Usado na página Sobre */
 #hero-sobre {
   width: 100%;
-  height: 80vh;
-  background: url("../img/sobre/about-img-banner.JPG") top center;
+  height: 50vh;
+  background: url("../img/sobre.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -425,7 +421,7 @@ alteração na pag voluntariado
   right: 0;
 }
 #hero-sobre h1 {
-  margin: 0;
+  margin-top: 10%;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -437,41 +433,15 @@ alteração na pag voluntariado
   margin: 10px 0 0 0;
   font-size: 24px;
 }
-
-/* Usado na página Desenvolvedoras */
-#desenvolvedoras {
+/* Usado na página Contato */
+#hero-contato {
   width: 100%;
-  height: 80vh;
-  background: url("../img/desenvolvedoras/pexels-danny-meneses-943096.jpg") top center;
+  height: 50vh;
+  background: url("../img/contato.jpg") top center;
   background-size: cover;
   position: relative;
 }
-#desenvolvedoras h1 {
-
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-#hero-sobre h2 {
-  color: #eee;
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-
-/* Usado na página Projeto */
-
-#hero-projeto {
-  width: 100%;
-  height: 80vh;
-  background: url("../img/projeto/banner.JPG") top center;
-  background-size: cover;
-  position: relative;
-}
-#hero-projeto:before {
+#hero-contato:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -480,31 +450,30 @@ alteração na pag voluntariado
   left: 0;
   right: 0;
 }
-#hero-projeto h1 {
-  margin: 0;
+#hero-contato h1 {
+  margin-top: 10%;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-#hero-projeto h2 {
+#hero-contato h2 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
 /* Usado na página Desenvolvedoras */
-#desenvolvedoras {
+#hero-desenvolvedoras {
   width: 100%;
-  height: 80vh;
-  background: url("../img/desenvolvedoras/pexels-danny-meneses-943096.jpg") top
-    center;
+  height: 50vh;
+  background: url("../img/desenvolvedoras/pexels-danny-meneses-943096.jpg") top center;
   background-size: cover;
   position: relative;
 }
-#desenvolvedoras h1 {
-  margin: 0;
+#hero-desenvolvedoras h1 {
+  margin-top: 10%;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -512,11 +481,13 @@ alteração na pag voluntariado
   font-family: "Poppins", sans-serif;
 }
 
-#desenvolvedoras h2 {
+#hero-desenvolvedoras h2 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
+/* Usado na página Projeto */
 
 #hero {
   width: 100%;
@@ -1014,12 +985,19 @@ section {
 }
 #hero-doacoes {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background: url("../img/doacoes.jpg") top center;
   background-size: cover;
   position: relative;
 }
-
+#hero-doacoes h1 {
+  margin-top: 10%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
 .doacoes-home-normal {
   transform: skewY(3deg);
 }
@@ -1475,8 +1453,8 @@ section {
 
 #hero-atividades {
   width: 100%;
-  height: 80vh;
-  background: url("../img/atividades/banner.JPG") top center;
+  height: 50vh;
+  background: url("../img/atividades.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -1490,7 +1468,7 @@ section {
   right: 0;
 }
 #hero-atividades h1 {
-  margin: 0;
+  margin-top: 10%;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
