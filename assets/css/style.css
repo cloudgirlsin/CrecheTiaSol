@@ -653,6 +653,11 @@ section {
   border-radius: 10px 10px;
 }
 
+.fundo-depoimento-sobre {
+  background: linear-gradient(rgba(242, 255, 207, 0.5), rgb(250, 236, 199)),
+    url("../img/sobre/fundo-depoimento.JPG") ;
+  background-size: cover;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
