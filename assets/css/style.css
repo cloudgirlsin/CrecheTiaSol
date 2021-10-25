@@ -879,22 +879,28 @@ section {
   text-align: center;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #eef0ef;
+  border-radius: 1px 1px 10px 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 .trainers .member img {
   margin: 0px 0px 30px 0px;
-
 }
-
+.mentees {
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgb(255, 233, 159, 1) 100%
+  );
+}
 /* Usado na página desenvolvedoras */
 .mentees .member img {
   margin: 0px 0px 30px 0px;
   border-radius: 1px 1px 40px 0;
 }
-
-
 .trainers .member .member-content {
   padding: 0 20px 30px 20px;
+}
+.mentees-radius {
+  border-radius: 1px 1px 40px 40px;
 }
 
 /* Usado na página desenvolvedoras */
@@ -903,7 +909,6 @@ section {
   padding-bottom: 20px;
   font-family: "Poppins", sans-serif;
 }
-
 .trainers .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
@@ -1103,6 +1108,13 @@ section {
 
 .cotacao-home {
   padding-top: 20px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgb(255, 233, 159, 1) 100%
+  );
+}
+
+.degrade-mentess {
   background: linear-gradient(
     rgba(255, 255, 255, 1),
     rgb(255, 233, 159, 1) 100%
