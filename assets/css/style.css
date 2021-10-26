@@ -655,7 +655,7 @@ section {
 
 .fundo-depoimento-sobre {
   background: linear-gradient(rgba(242, 255, 207, 0.5), rgb(250, 236, 199)),
-    url("../img/sobre/fundo-depoimento.JPG") ;
+    url("../img/sobre/fundo-depoimento.jpg") ;
   background-size: cover;
 }
 /*--------------------------------------------------------------
