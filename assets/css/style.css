@@ -1668,9 +1668,14 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.display-form-contato {
-  display: flex;
+/*.display-form-contato {
+  display: center;
   flex-direction: column;
+}*/
+
+.campos-contato {
+  margin-right: 160px;
+  margin-left: 160px;
 }
 
 .topicos-destacados {
@@ -1685,7 +1690,6 @@ section {
 
 .box-contato {
   border: 1px solid #e46c0b;  
-  background-color: #fadc79;
   color: grey;
   font-size: 15px;
   padding: 10px;
@@ -1693,7 +1697,6 @@ section {
 }
 
 .box-contato:focus {
-  background-color: #fff;
   border: 1px solid #e46c0b;
   box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -1823,6 +1826,50 @@ section {
   border: 1px solid #e46c0b;   
 }
 
+.ajuste-bottom-container {
+  padding-bottom: 0px;
+}
+
+.transicao-final-pagina {
+  height: 160px;
+  width: 100%;
+  background: linear-gradient(
+  rgba(255, 255, 255, 1),
+  rgb(255, 233, 159, 1) 100%
+);
+}
+
+@media screen and (max-width: 415px) {
+  .view-mobile {
+    text-align: center;
+  }
+  
+  .campos-contato {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: center;
+    flex-direction: column;
+  }
+
+  .transicao-final-pagina {
+    height: 0px;
+    width: 100%;
+    background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgb(255, 233, 159, 1) 100%
+  );
+  }
+}
+
+@media screen and (max-width: 800px) {  
+  .campos-contato {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: center;
+    flex-direction: column;
+  }
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1839,7 +1886,6 @@ section {
     transform: rotate(360deg);
   }
 }
-
 
 /*--------------------------------------------------------------
 # Footer
