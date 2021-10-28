@@ -1473,7 +1473,7 @@ section {
   margin-left: -30px;
   overflow: hidden;
   z-index: 9;
-  border-radius: 0;
+  border-radius: 10px;
 }
 .events .card-img img {
   max-width: 100%;
@@ -1488,6 +1488,7 @@ section {
   margin-top: -60px;
   transition: 0.3s;
   font-family: "Poppins", sans-serif;
+  border-radius: 10px;
 }
 .events .card-title {
   font-weight: 700;
@@ -1566,6 +1567,16 @@ section {
   border: none;
   border-radius: 40px 0 40px 0;
   box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.5);
+}
+
+
+/* -------- Transição para o Footer*/
+.transicao {
+  height: 150px;
+  background: linear-gradient(
+  rgba(255, 255, 255, 1),
+  rgb(255, 233, 159, 1) 100%
+);
 }
 
 /*--------------------------------------------------------------
