@@ -1534,16 +1534,14 @@ section {
   }
 }
 
-/*----------------- Página Atividades ---------------------------*/
+/*----------------- Start Página Atividades ---------------------------*/
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/*------------------ # Hero Section -----------------------------*/
 
 #hero-atividades {
   width: 100%;
   height: 50vh;
-  background: url('../img/atividades.jpg') top center;
+  background: url('../img/atividades/atividades.jpg') top center;
   background-size: cover;
   position: relative;
 }
@@ -1569,6 +1567,7 @@ section {
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
 @media screen and (max-width: 991px) {
   #hero-atividades h1{
       margin-top: 30%;
@@ -1582,6 +1581,7 @@ section {
 /*--------------------------------------------------------------
 # Events
 --------------------------------------------------------------*/
+
 
 .events .card {
   border: 0;
@@ -1631,11 +1631,10 @@ section {
   color: #e46c0b;
 }
 
-.events .card-text li {
+.card-text li {
   list-style: none;
-  text-align: left;
+  text-align: start;
 }
-
 .events .read-more a {
   color: #777777;
   text-transform: uppercase;
@@ -1661,47 +1660,71 @@ section {
 .secao-frase {
   background-color: #fffdaf;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  transform: skewY(4deg);
+  transform: skewY(-4deg);
 }
 
 #frase-atividades {
   margin-top: 60px;
   font-size: 2em;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  transform: skewY(-4deg);
+  transform: skewY(4deg)
 }
 
 #frase-autor {
   font-size: 1.5em;
   text-align: right;
-  font-family: 'Poppins', sans-serif;
-  transform: skewY(-4deg);
+  transform: skewY(4deg)
 }
 
 #titulo-galeria p {
   text-align: justify;
   font-size: 18px;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+}
+
+.card-text .icone-atividades {
+ 
+  color: #ff7300;
+  margin-right: 10px;
+  padding: 0 !important;
+  margin-top: 10px;
+}
+
+.card-text li:first-child {
+  margin-top: 20px;
 }
 
 .borda-atividades {
-  border: none;
+ 
   border-radius: 40px 0 40px 0;
-  box-shadow: 5px 5px 1px rgba(227, 108, 12, 0.5);
+  box-shadow: 5px 5px 5px rgba(227, 108, 12, 0.5);
 }
 
 
-/* -------- Transição para o Footer*/
+/* -------------------- Transição para o Footer  ---------------------*/
+
 .transicao {
   height: 150px;
-  background: linear-gradient(
-  rgba(255, 255, 255, 1),
-  rgb(255, 233, 159, 1) 100%
-);
+  background: linear-gradient(rgba(255, 255, 255, 1),rgb(255, 233, 159, 1) 100%);
 }
+
+/*----------------- Media Queries Página Atividades -----------------------*/
+
+@media screen and (max-width: 1200px) {
+
+  .events .card-body {
+    padding: 30px 10px 30px 10px ;
+    max-width: 30em;
+  }
+
+  .card-text .icone-atividades{
+ 
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+}
+
+/*----------------- End Página Atividades ---------------------------*/
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1803,14 +1826,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-/*.display-form-contato {
+.display-form-contato {
   display: center;
   flex-direction: column;
-}*/
-
-.campos-contato {
-  margin-right: 160px;
-  margin-left: 160px;
 }
 
 .topicos-destacados {
@@ -1818,9 +1836,13 @@ section {
   font-weight: bold;
 }
 
-.form-control-contato {
-  width: 100%;
-  border-radius: 5px;
+.coluna-esquerda-contato {
+  padding-right: 45px!important;
+}
+
+.coluna-direita-contato {
+  padding-right: 0;
+  padding-left: 45px!important;
 }
 
 .box-contato {
@@ -1974,16 +1996,24 @@ section {
   );
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 900px) {
   .view-mobile {
     text-align: center;
   }
 
-  .campos-contato {
-    margin-right: 10px;
-    margin-left: 10px;
-    display: center;
-    flex-direction: column;
+  .coluna-esquerda-contato {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px!important;
+    width: 100%;
+  }
+  
+  .coluna-direita-contato {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    width: 100%;
   }
 
   .transicao-final-pagina {
@@ -1993,15 +2023,6 @@ section {
       rgba(255, 255, 255, 1),
       rgb(255, 233, 159, 1) 100%
     );
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .campos-contato {
-    margin-right: 40px;
-    margin-left: 40px;
-    display: center;
-    flex-direction: column;
   }
 }
 
