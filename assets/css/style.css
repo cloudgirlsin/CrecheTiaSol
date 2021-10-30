@@ -1073,6 +1073,39 @@ section {
 
 /*----------
 ----------------------------------------------------
+# Página Doações - Home
+--------------------------------------------------------------*/
+.imagem-criancas{
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 40px 0 40px 0;
+  box-shadow: 5px 5px 1px rgb(227 108 12 / 50%);
+}
+
+.lista-doacoes{
+  text-align: center;
+  background-color: rgb(255, 233, 159, 1);
+}
+.itens-doacoes{
+  display: inline-block;
+  text-align: left;
+  color: #000000;
+  font-size: 20px;
+}
+.itens-doacoes ul{
+  margin-top: 5%;
+  list-style: none;
+}
+#titulo-doacoes h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #ff7300;
+  font-family: 'Poppins', sans-serif;
+}
+/*----------
+----------------------------------------------------
 # Voluntariado - Home
 --------------------------------------------------------------*/
 
@@ -1098,6 +1131,8 @@ section {
   color: #73a641;
 }
 .voluntariado-lista {
+  display: inline-block;
+  text-align: left;
   list-style-type: none;
   color: #000000;
   font-size: 20px;
