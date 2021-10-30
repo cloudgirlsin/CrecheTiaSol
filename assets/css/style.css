@@ -293,9 +293,11 @@ h6 {
   .mobile-nav-toggle {
     display: block;
   }
-
   .navbar ul {
     display: none;
+  }
+  .margem-mobile{
+    padding: 0 10%;
   }
 }
 .navbar-mobile {
@@ -407,8 +409,17 @@ alteração na pag voluntariado
 .coluna-esquerda {
   margin-right: 15px;
 }
-
-
+@media screen and (max-width: 991px) {
+  #hero-voluntariado h1{
+      margin-top: 30%;
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+  
 @media screen and (max-width: 900px) {
   #mudar-display {
     flex-direction: column !important;
@@ -464,6 +475,16 @@ alteração na pag voluntariado
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+@media screen and (max-width: 991px) {
+  #hero-sobre h1{
+      margin-top: 30%;
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
 /* Usado na página Contato */
 #hero-contato {
   width: 100%;
@@ -494,6 +515,17 @@ alteração na pag voluntariado
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
+@media screen and (max-width: 991px) {
+  #hero-contato h1{
+      margin-top: 30%;
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
 
 /* Usado na página Desenvolvedoras */
 #hero-desenvolvedoras {
@@ -985,6 +1017,9 @@ section {
   padding: 0 40px;
   text-align: justify;
 }
+.video-home{
+  margin-left: 5%;
+}
 .about-home .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -1104,6 +1139,16 @@ section {
   color: #ff7300;
   font-family: 'Poppins', sans-serif;
 }
+@media screen and (max-width: 991px) {
+#hero-doacoes h1{
+    margin-top: 30%;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+  }
+}
 /*----------
 ----------------------------------------------------
 # Voluntariado - Home
@@ -1119,9 +1164,6 @@ section {
   transform: skewY(-3deg);
 }
 .voluntariado-home-normal h1 {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
   color: #ff7300;
 }
 .voluntariado-home-normal p {
@@ -1201,7 +1243,7 @@ section {
   position: relative;
   background: #fff;
 }
-.testimonials .testimonial-item-home .testimonial-img-home {
+.testimonials .testimonial-item-home .testimonial-img-home{
   width: 100%;
   border-radius: 20px;
   border: 6px solid #fff;
@@ -1246,6 +1288,9 @@ section {
   #titulo-galeria h2 {
     font-size: 28px;
   }
+  .testimonials .swiper-pagination{
+    margin-top: 2%;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 766px) {
   #titulo-galeria h2 {
@@ -1259,7 +1304,7 @@ section {
   }
   .testimonials .testimonial-item-home .testimonial-img-home {
     width: 100%;
-    height: 115%;
+    height: 90%;
     border-radius: 20px;
     border: 6px solid #fff;
   }
@@ -1270,24 +1315,29 @@ section {
   }
   .testimonials .testimonial-item-home .testimonial-img-home {
     width: 70%;
-    height: 126%;
+    height: 100%;
     margin-left: 100px;
     border-radius: 20px;
     border: 6px solid #fff;
   }
-}
-
-@media screen and (min-width: 1200px) {
-  .testimonials .testimonial-item-home {
-    min-height: 450px;
+.swiper-pagination{
+    margin-top: 2%;
+    position: relative;
   }
+}
+@media screen and (min-width: 1200px) {
   .testimonials .testimonial-item-home .testimonial-img-home {
-    width: 100%;
-    height: 360px;
+    min-height: 16em;
+    width: 80%;
+    height: 101%;
     border-radius: 15px;
     border: 6px solid #fff;
     position: absolute;
     max-width: none;
+  }
+  .swiper-pagination{
+    margin-top: 5%;
+    position: relative;
   }
 }
 
@@ -1352,10 +1402,6 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 15px auto 15px auto;
-}
-.testimonials .swiper-pagination {
-  margin-top: 70px;
-  position: relative;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
@@ -1522,7 +1568,20 @@ section {
   font-size: 24px;
 }
 
-/*---------------------- # Events ------------------------------*/
+@media screen and (max-width: 991px) {
+  #hero-atividades h1{
+      margin-top: 30%;
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+
 
 .events .card {
   border: 0;
