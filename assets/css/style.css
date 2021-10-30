@@ -1748,14 +1748,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-/*.display-form-contato {
+.display-form-contato {
   display: center;
   flex-direction: column;
-}*/
-
-.campos-contato {
-  margin-right: 160px;
-  margin-left: 160px;
 }
 
 .topicos-destacados {
@@ -1763,9 +1758,13 @@ section {
   font-weight: bold;
 }
 
-.form-control-contato {
-  width: 100%;
-  border-radius: 5px;
+.coluna-esquerda-contato {
+  padding-right: 45px!important;
+}
+
+.coluna-direita-contato {
+  padding-right: 0;
+  padding-left: 45px!important;
 }
 
 .box-contato {
@@ -1919,16 +1918,24 @@ section {
   );
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 900px) {
   .view-mobile {
     text-align: center;
   }
 
-  .campos-contato {
-    margin-right: 10px;
-    margin-left: 10px;
-    display: center;
-    flex-direction: column;
+  .coluna-esquerda-contato {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px!important;
+    width: 100%;
+  }
+  
+  .coluna-direita-contato {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    width: 100%;
   }
 
   .transicao-final-pagina {
@@ -1938,15 +1945,6 @@ section {
       rgba(255, 255, 255, 1),
       rgb(255, 233, 159, 1) 100%
     );
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .campos-contato {
-    margin-right: 40px;
-    margin-left: 40px;
-    display: center;
-    flex-direction: column;
   }
 }
 
