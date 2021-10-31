@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -67,7 +67,7 @@
   <main id="main">
     <!-- ======= Hero Section ======= -->
     <section id="hero-contato" class="d-flex justify-content-center align-items-center">
-      <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <div class="container banner-padrao position-relative" data-aos="zoom-in" data-aos-delay="100">
         <h1>Contato</h1>
       </div>
     </section>
@@ -75,61 +75,62 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact ajuste-bottom-container">
-      <div class="container" data-aos="fade-up">
+      <div class="container margem-mobile" data-aos="fade-up">
 
         <div class="row mt-5 view-mobile">
           <h2 class = "topicos-destacados">Fale Conosco</h2>
           <p>Fique à vontade para entrar em contato</p>
         </div>
 
-        <div class="display-form-contato campos-contato">
+        <div class="display-form-contato">
 
           <div class="form-row">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="coluna-esquerd">
-                <div class="form-group">
-                  <label for="nome" class="col-form-label">Nome Completo</label>
-                  <input type="text" name="name" class="form-control box-contato" id="name" placeholder="Seu Nome" required>
-                  <div class="validate"></div>
+            <form action="contactform.php" method="post" role="form" class="php-email-form">
+              <div class="col-lg-12 d-flex form-row" id="mudar-display">
+                <div class="col-md-6 coluna-esquerda-contato">
+                  <div class="form-group">
+                    <label for="nome" class="col-form-label">Nome Completo</label>
+                    <input type="text" name="name" class="form-control box-contato" id="name" placeholder="Digite seu nome" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="col-form-label">Email</label>
+                    <input type="email" class="form-control box-contato" name="email" id="email" placeholder="seu_email@exemplo.com.br" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="tel" class="col-form-label">Telefone/Celular</label>
+                    <input type="tel" class="form-control box-contato" name="tel" id="tel" placeholder="(88) 88888-8888" required>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject" class="col-form-label">Assunto</label>
+                    <select class="form-control box-contato" name="subject" id="subject" required>
+                      <option value="">Selecione um assunto</option>
+                      <option value="Matrículas">Matrículas</option>
+                      <option value="Dúvidas sobre a Creche da Tia Sol">Dúvidas sobre a Creche da Tia Sol</option>
+                      <option value="Doações">Doações</option>
+                      <option value="Outros">Outros</option>
+                    </select> 
+                  </div>
                 </div>
-                <div class="form-group">
-                  <label for="email" class="col-form-label">Email</label>
-                  <input type="email" class="form-control box-contato" name="email" id="email" placeholder="seu_email@exemplo.com.br" required>
-                  <div class="validate"></div>
+                <div class="col-md-6 coluna-direita-contato">
+                  <div class="form-group">
+                    <label for="mensagem" class="col-form-label">Mensagem</label>
+                    <textarea class="form-control box-contato" name="message" rows="10" placeholder="Mensagem" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Carregando</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Sua mensagem foi enviada. Obrigada!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
                 </div>
-                <div class="form-group">
-                  <label for="tel" class="col-form-label">Telefone/Celular</label>
-                  <input type="tel" class="form-control box-contato" name="tel" id="tel" placeholder="(88) 88888-8888" required>
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <label for="subject" class="col-form-label">Assunto</label>
-                  <select class="form-control box-contato" name="subject" id="subject" required>
-                    <option value="">Selecione um assunto</option>
-                    <option value="Matrículas">Matrículas</option>
-                    <option value="Dúvidas sobre a Creche da Tia Sol">Dúvidas sobre a Creche da Tia Sol</option>
-                    <option value="Doações">Doações</option>
-                    <option value="Outros">Outros</option>
-                  </select> 
-                </div>
-              </div>
-              <div class="coluna-direit">
-                <div class="form-group">
-                  <label for="mensagem" class="col-form-label">Mensagem</label>
-                  <textarea class="form-control box-contato" name="message" rows="10" placeholder="Mensagem" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Carregando</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Sua mensagem foi enviada. Obrigada!</div>
-                </div>
-                <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+
               </div>
             </form>
-
           </div>
-
         </div>
 
         <div class="row mt-5 view-mobile">
@@ -165,7 +166,7 @@
               Salvador - BA - CEP: 41295-010<br>
               <strong>Telefone: </strong> <a href="tel:+5571986988320" class="contato-footer">(71) 98698-8320</a><br>
               <strong>Email:</strong> <a href="mailto:xxxx@xxxxx.com.br"
-                class="contato-footer">xxxx@xxxxx.com.br</a><br>
+                class="contato-footer">contato@crechetiasol.com.br</a><br>
             </p>
           </div>
 
@@ -176,9 +177,7 @@
               <li>Sáb e Dom - Fechado</li>
             </ul>
             <div class="social-links text-md-right pt-3 pt-md-0">
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/creche_escolatiasol/" class="instagram"><i
-                  class="bx bxl-instagram"></i></a>
+              <a href="https://www.instagram.com/creche_escolatiasol/" class="instagram"><i class="bx bxl-instagram"></i></a>
             </div>
 
           </div>
