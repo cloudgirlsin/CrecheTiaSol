@@ -297,11 +297,13 @@ h6 {
   .navbar ul {
     display: none;
   }
+
   .margem-mobile {
     padding: 0 40px;
   }
   #botao-home a {
     text-align: center;
+
   }
 }
 .navbar-mobile {
@@ -1217,8 +1219,11 @@ section {
   font-size: 30px;
   font-weight: 600;
   color: #ff7300;
+
   font-family: "Poppins", sans-serif;
+
 }
+
 #titulo-galeria h2::after {
   content: "";
   width: 120px;
@@ -1233,8 +1238,11 @@ section {
     font-size: 30px;
     font-weight: 600;
     color: #ff7300;
+
     font-family: "Poppins", sans-serif;
+
   }
+
   .testimonials .testimonial-item-home {
     box-sizing: content-box;
     min-height: 192px;
@@ -1571,8 +1579,6 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
-
-  font-family: "Poppins", sans-serif;
   border-radius: 10px;
 }
 .events .card-title {
@@ -1670,6 +1676,7 @@ section {
   
 }
 
+
 @media screen and (max-width: 991px) {
 
   .events .card-body {
@@ -1687,6 +1694,7 @@ section {
 }
 
 @media screen and (max-width: 760px) {
+
 
   .events .card-body {
     padding: 30px ;
