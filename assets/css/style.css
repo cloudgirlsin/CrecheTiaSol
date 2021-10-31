@@ -648,7 +648,7 @@ section {
   color: #fff;
 }
 .lista-sobre{
-  margin: 10% 0;
+  margin: 5% 0;
   text-align: justify;
 }
 @media screen and (max-width: 992px) {
@@ -1341,6 +1341,7 @@ section {
 /* Usado na página Sobre */
 .testimonial-img-sobre {
   width: 115px;
+  margin: 3% 0; 
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
