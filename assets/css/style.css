@@ -297,7 +297,7 @@ h6 {
     display: none;
   }
   .margem-mobile{
-    padding: 0 10%;
+    padding: 0 40px;
   }
 }
 .navbar-mobile {
@@ -1255,8 +1255,8 @@ section {
   font-size: 30px;
   font-weight: 600;
   color: #ff7300;
-  font-family: 'Poppins', sans-serif;
 }
+
 #titulo-galeria h2::after {
   content: '';
   width: 120px;
@@ -1271,8 +1271,8 @@ section {
     font-size: 30px;
     font-weight: 600;
     color: #ff7300;
-    font-family: 'Poppins', sans-serif;
   }
+
   .testimonials .testimonial-item-home {
     box-sizing: content-box;
     min-height: 192px;
@@ -1609,8 +1609,6 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   transition: 0.3s;
-
-  font-family: "Poppins", sans-serif;
   border-radius: 10px;
 
 }
@@ -1635,6 +1633,7 @@ section {
   list-style: none;
   text-align: start;
 }
+
 .events .read-more a {
   color: #777777;
   text-transform: uppercase;
@@ -1664,7 +1663,7 @@ section {
 }
 
 #frase-atividades {
-  margin-top: 60px;
+  margin-top: 5%;
   font-size: 2em;
   text-align: center;
   transform: skewY(4deg)
@@ -1710,20 +1709,47 @@ section {
 
 /*----------------- Media Queries Página Atividades -----------------------*/
 
-@media screen and (max-width: 1200px) {
-
-  .events .card-body {
-    padding: 30px 10px 30px 10px ;
-    max-width: 30em;
-  }
+@media screen and (max-width: 1024px) {
 
   .card-text .icone-atividades{
- 
     margin-right: 5px;
     margin-top: 5px;
   }
+  
 }
 
+@media screen and (max-width: 991px) {
+
+  .events .card-body {
+    padding: 30px 10px;
+  }
+
+  #events .card-text{
+    padding-left: 10px;
+  }
+
+  #events .card-text ul{
+    padding-left: 10px;
+  }
+
+}
+
+@media screen and (max-width: 760px) {
+
+  .events .card-body {
+    padding: 30px ;
+  }
+   
+  .secao-frase{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  #titulo-galeria .card-text li {
+    text-align: justify;
+  }
+}
+ 
 /*----------------- End Página Atividades ---------------------------*/
 
 /*--------------------------------------------------------------
