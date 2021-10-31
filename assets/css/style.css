@@ -649,6 +649,7 @@ section {
 }
 .lista-sobre{
   margin: 10% 0;
+  text-align: justify;
 }
 @media screen and (max-width: 992px) {
   .breadcrumbs {
@@ -1056,7 +1057,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 #frase-home {
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
@@ -1632,7 +1633,8 @@ section {
 
 #frase-atividades {
   margin-top: 5%;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   transform: skewY(4deg)
 }
