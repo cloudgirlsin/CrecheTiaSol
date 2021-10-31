@@ -508,7 +508,7 @@ alteração na pag voluntariado
 #hero-desenvolvedoras {
   width: 100%;
   height: 50vh;
-  background: url("../img/desenvolvedoras/banner-desenvolvedoras.jpeg") top
+  background: url("../img/desenvolvedoras.jpg") top
     center;
   background-size: cover;
   position: relative;
@@ -932,6 +932,7 @@ section {
   text-align: center;
   padding-bottom: 20px;
   font-family: "Poppins", sans-serif;
+  color: #e46c0b;
 }
 .trainers .member h4 {
   font-weight: 700;
