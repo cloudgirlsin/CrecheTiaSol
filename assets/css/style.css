@@ -648,8 +648,7 @@ section {
   color: #fff;
 }
 .lista-sobre{
-  margin: 5% 0;
-  text-align: justify;
+  margin: 10% 0;
 }
 @media screen and (max-width: 992px) {
   .breadcrumbs {
@@ -1057,7 +1056,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 #frase-home {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
@@ -1341,7 +1340,6 @@ section {
 /* Usado na página Sobre */
 .testimonial-img-sobre {
   width: 115px;
-  margin: 3% 0; 
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
@@ -1634,8 +1632,7 @@ section {
 
 #frase-atividades {
   margin-top: 5%;
-  font-size: 1.5em;
-  font-family: "Poppins", sans-serif;
+  font-size: 2em;
   text-align: center;
   transform: skewY(4deg)
 }
