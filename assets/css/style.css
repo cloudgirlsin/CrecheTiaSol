@@ -1008,10 +1008,14 @@ section {
 }
 .about-home video {
   width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .about-home video {
-    width: 90%;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
 .img-fluid-home {
@@ -1168,6 +1172,7 @@ section {
   list-style-type: none;
   color: #000000;
   font-size: 20px;
+  padding: 0 !important;
 }
 .icone-voluntarios {
   color: #ff7300;
