@@ -83,9 +83,7 @@
 
     <!-- End Hero - Banner Atividades -->
 
-
     <!-- ======= Funcionamento da Creche ======= -->
-
 
     <section id="events" class="events">
       <div class="container margem-mobile" data-aos="fade-up">
@@ -118,22 +116,24 @@
               <div class="card-body">
                 <h5 class="card-title"><a href="">Meio Período</a></h5>
                 <p class="fst-italic text-center">Crianças até 5 anos</p>
-                <ul class="card-text">
-                  <li>
-                    <span>Manhã</span>
-                    <ul>
-                      <li>Entrada às 6h</li>
-                      <li>Saída às 11h45</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <span>Tarde</span>
-                    <ul>
-                      <li>Entrada às 13h</li>
-                      <li> Saída às 17h45</li>
-                    </ul>
-                  </li>
-                </ul>
+                <div class="card-text">
+                  <ul class="lista-horario">
+                    <li>
+                      <span>Manhã</span>
+                      <ul>
+                        <li>De 6h às 11h45</li>
+                        <li></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span>Tarde</span>
+                      <ul>
+                        <li>De 13h às 17h45</li>
+                        <li></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -146,18 +146,19 @@
               <div class="card-body">
                 <h5 class="card-title"><a href="">Período Integral</a></h5>
                 <p class="fst-italic text-center"> Crianças até 5 anos</p>
-                <ul class="card-text">
-                  <li><span>Horário</span> </li>
-                  <ul>
-                    <li>
-                      Entrada às 6h
-                    </li>
-                    <li>
-                      Saída às 17h45
-                    </li>
-                  </ul>
+                <div class="card-text">
+                  <ul class="lista-horario">
+                    <li><span>Horário</span> </li>
+                    <ul>
+                      <li>
+                        De 6h às 17h45
+                      </li>
+                      <li>
 
-                </ul>
+                      </li>
+                    </ul>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -170,17 +171,16 @@
     <!-- Inicio da seção 'Atividades da Creche' com frase sobre ensino -->
 
     <section class="secao-frase">
-      <div class="container margem-mobile" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-
-            <q id="frase-atividades"> Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade
-
-              muda.</q>
-            </div>
-            <div id="frase-autor">
-              <p> - Paulo Freire</p>
-            </div>
+            <q id="frase-atividades">
+              Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda.
+            </q>
+          </div>
+          <div id="frase-autor">
+            <p> - Paulo Freire</p>
+          </div>
         </div>
       </div>
     </section>
@@ -190,47 +190,44 @@
     <!-- ======= Atividades da Creche ======= -->
 
 
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials" style="padding-bottom:0;">
       <div class="container margem-mobile galeria-home" data-aos="fade-up">
 
-
         <div id="titulo-galeria">
-          <h2>Atividades da Creche</h2>
-          <ul class="card-text" style="list-style: none;">
-            
+          <h2 id="titulo-atividades">Atividades da Creche</h2>
+          <div class="lista-atividades">
+            <ul>
               <li>
-                <i class="fas fa-fw fa-clipboard-list icone-atividades"></i>
-                Realizamos uma análise comportamental de cada aluno a fim de desenvolver as atividades apropriadas para cada faixa etária.
+                <i class="fas fa-fw fa-clipboard-list icone-atividades"></i>Realizamos uma análise comportamental de
+                cada aluno a fim de desenvolver as atividades apropriadas para cada faixa etária.
               </li>
               <li>
-                <i class="fas fa-fw fa-child icone-atividades"></i>
-                Buscamos o aprendizado das nossas crianças através de atividades lúdicas como: contação de história, pinturas, jogos e brincadeiras.
-              </li> 
-              <li>
-                <i class="fas fa-fw fa-clock icone-atividades"></i> 
-                Na programação dos alunos do período integral temos horário para almoço e para soneca.
+                <i class="fas fa-fw fa-child icone-atividades"></i>Buscamos o aprendizado das nossas crianças através de
+                atividades lúdicas como: contação de história, pinturas, jogos e brincadeiras.
               </li>
-            
-          </ul>
+              <li>
+                <i class="fas fa-fw fa-clock icone-atividades"></i>Na programação dos alunos do período integral temos
+                horário para almoço e para soneca.
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-
               <div class="testimonial-item-home">
-                <img src="../assets/img/atividades/leitura.jpg" class="testimonial-img-home borda-atividades" alt="Foto de crianças lendo">
-
+                <img src="../assets/img/atividades/leitura.jpg" class="testimonial-img-home borda-atividades"
+                  alt="Foto de crianças lendo">
               </div>
             </div>
             <!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item-home">
-
                 <img src="../assets/img/atividades/atividades-manuais.jpg" class="testimonial-img-home borda-atividades"
-
                   alt="Foto de crianças realizando atividades manuais">
               </div>
             </div>
@@ -238,9 +235,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item-home">
-
                 <img src="../assets/img/atividades/atividades-ludicas.jpg" class="testimonial-img-home borda-atividades"
-
                   alt="Foto de crianças realizando atividades lúdicas">
               </div>
             </div>
@@ -248,9 +243,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item-home">
-
                 <img src="../assets/img/atividades/pintura.JPG" class="testimonial-img-home borda-atividades"
-
                   alt="Foto de crianças fazendo pinturas">
               </div>
             </div>
@@ -258,22 +251,19 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item-home">
-
-                <img src="../assets/img/atividades/almoco.jpg" class="testimonial-img-home borda-atividades" alt="Foto de crianças almoçando">
-
+                <img src="../assets/img/atividades/almoco.jpg" class="testimonial-img-home borda-atividades"
+                  alt="Foto de crianças almoçando">
               </div>
             </div>
             <!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item-home">
-
-                <img src="../assets/img/atividades/soneca.jpg" class="testimonial-img-home borda-atividades" alt="Foto de crianças dormindo">
-
+                <img src="../assets/img/atividades/soneca.jpg" class="testimonial-img-home borda-atividades"
+                  alt="Foto de crianças dormindo">
               </div>
             </div>
             <!-- End testimonial item -->
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -282,10 +272,10 @@
     </section><!-- End Testimonials Section -->
 
     <!-- Início da transição para o Footer -->
-  
+
     <section id="contact" class="contact transicao-final-pagina">
-      <div class="container" data-aos="fade-up"></div> 
-    </section> 
+      <div class="container" data-aos="fade-up"></div>
+    </section>
 
     <!-- Fim da transição para o Footer  -->
   </main><!-- End #main -->
@@ -303,7 +293,8 @@
               1ª Travessa São Bartolomeu nº 49 - Pirajá<br>
               Salvador - BA - CEP: 41295-010<br>
               <strong>Telefone: </strong> <a href="tel:+5571986988320" class="contato-footer">(71) 98698-8320</a><br>
-              <strong>Email:</strong> <a href="mailto:contato@crechetiasol.com.br" class="contato-footer">contato@crechetiasol.com.br </a><br>
+              <strong>Email:</strong> <a href="mailto:contato@crechetiasol.com.br"
+                class="contato-footer">contato@crechetiasol.com.br </a><br>
             </p>
           </div>
 
