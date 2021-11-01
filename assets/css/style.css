@@ -664,8 +664,7 @@ section {
   color: #fff;
 }
 .lista-sobre{
-  margin: 5% 0;
-  text-align: justify;
+  margin: 10% 0;
 }
 @media screen and (max-width: 992px) {
   .breadcrumbs {
@@ -1009,10 +1008,14 @@ section {
 }
 .about-home video {
   width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .about-home video {
-    width: 90%;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 }
 .img-fluid-home {
@@ -1073,7 +1076,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 #frase-home {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
@@ -1169,6 +1172,7 @@ section {
   list-style-type: none;
   color: #000000;
   font-size: 20px;
+  padding: 0 !important;
 }
 .icone-voluntarios {
   color: #ff7300;
@@ -1275,7 +1279,7 @@ section {
   }
   .testimonials .testimonial-item-home .testimonial-img-home {
     width: 100%;
-    height: 200px;
+    height: 70%;
     border-radius: 20px;
     border: 6px solid #fff;
   }
@@ -1297,8 +1301,9 @@ section {
     background: #fff;
   }
   .testimonials .testimonial-item-home .testimonial-img-home {
-    width: 100%;
+    width: 90%;
     height: 90%;
+    margin-left: 5%;
     border-radius: 20px;
     border: 6px solid #fff;
   }
@@ -1308,9 +1313,9 @@ section {
     min-height: 450px;
   }
   .testimonials .testimonial-item-home .testimonial-img-home {
-    width: 70%;
+    width: 60%;
     height: 100%;
-    margin-left: 100px;
+    margin-left: 20%;
     border-radius: 20px;
     border: 6px solid #fff;
   }
@@ -1322,8 +1327,8 @@ section {
 @media screen and (min-width: 1200px) {
   .testimonials .testimonial-item-home .testimonial-img-home {
     min-height: 16em;
-    width: 80%;
-    height: 101%;
+    width: 100%;
+    height: 120%;
     border-radius: 15px;
     border: 6px solid #fff;
     position: absolute;
@@ -1365,7 +1370,6 @@ section {
 /* Usado na página Sobre */
 .testimonial-img-sobre {
   width: 115px;
-  margin: 3% 0; 
 }
 .testimonials .testimonial-item h3 {
   font-size: 18px;
@@ -1670,7 +1674,6 @@ section {
 }
 
 #frase-atividades {
-  
   margin: 5% auto 0 auto;
   font-size: 1.5em;
   font-family: "Poppins", sans-serif;
