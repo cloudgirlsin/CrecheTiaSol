@@ -1250,9 +1250,7 @@ section {
   font-size: 30px;
   font-weight: 600;
   color: #ff7300;
-
   font-family: "Poppins", sans-serif;
-
 }
 
 #titulo-galeria h2::after {
@@ -1265,12 +1263,11 @@ section {
 }
 @media screen and (max-width: 399px) {
   #titulo-galeria h2 {
-    text-align: center;
     font-size: 30px;
     font-weight: 600;
     color: #ff7300;
-
     font-family: "Poppins", sans-serif;
+    text-align: center;
 
   }
 
@@ -1587,7 +1584,7 @@ section {
 .events .card {
   border: 0;
   padding: 0 30px;
-  margin: 20px 0 60px 0;
+  margin: 20px 0 40px 0;
   position: relative;
 }
 
@@ -1615,7 +1612,12 @@ section {
 .events .card-title {
   font-weight: 700;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.events .card-information{
+
+  margin-bottom: 5px;
 }
 .events .card-title a {
   color: #37423b;
@@ -1623,6 +1625,8 @@ section {
 }
 .events .card-text {
   color: #5e5e5e;
+  display: inline-block;
+  text-align: justify;
 }
 
 .events .card-text span {
@@ -1631,7 +1635,11 @@ section {
 
 .events .card-text li {
   list-style: none;
-  text-align: left;
+}
+
+.events .card-text .lista-horario li{
+
+  padding-top: 5px;
 }
 
 .events .read-more a {
@@ -1656,15 +1664,18 @@ section {
 
 /*--------------------- Atividades da Creche ---------------------*/
 
+
 .secao-frase {
   background-color: #fffdaf;
   font-size: 20px;
   transform: skewY(-4deg);
+  color: #1f1c1cce;
 }
 
 #frase-atividades {
-  margin-top: 5%;
-  font-size: 2em;
+  margin: 5% auto 0 auto;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   transform: skewY(4deg)
 }
@@ -1672,24 +1683,31 @@ section {
 #frase-autor {
   font-size: 1.5em;
   text-align: right;
-  transform: skewY(4deg)
+  transform: skewY(4deg);
 }
 
-#titulo-galeria p {
-  text-align: justify;
-  font-size: 18px;
-  font-weight: 300;
+#titulo-atividades{
+
+  margin-top: 20px;
 }
 
-.card-text .icone-atividades {
+.lista-atividades .icone-atividades {
  
   color: #ff7300;
-  margin-right: 10px;
-  padding: 0 !important;
+  margin-right: 5px;
   margin-top: 10px;
+
 }
 
-.card-text li:first-child {
+.lista-atividades ul{
+
+  list-style: none;
+  padding-left: 0;
+  display: inline-block;
+  text-align: justify;
+}
+
+.lista-atividades li:first-child {
   margin-top: 20px;
 }
 
@@ -1697,37 +1715,19 @@ section {
   border-radius: 40px 0 40px 0;
   box-shadow: 5px 5px 5px rgb(227 108 12 / 50%);
 }
+
 @media screen and (max-width: 1024px) {
 
-  .card-text .icone-atividades{
-    margin-right: 5px;
-    margin-top: 5px;
+  .events .card-text .lista-horario {
+
+    padding-left: 3px;     
   }
-  
 }
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 991px) {
-
-  .events .card-body {
-    padding: 30px 10px;
-  }
-
-  #events .card-text{
-    padding-left: 10px;
-  }
-
-  #events .card-text ul{
-    padding-left: 10px;
-  }
-
-}
-
-@media screen and (max-width: 760px) {
-
-
-  .events .card-body {
-    padding: 30px ;
+  .events .card-text{
+    text-align: left;
   }
    
   .secao-frase{
@@ -1735,8 +1735,9 @@ section {
     padding-right: 0.5em;
   }
 
-  #titulo-galeria .card-text li {
+  #titulo-galeria .card-text .lista-horario {
     text-align: justify;
+    display: inline-block;
     margin-bottom: 5%;
   }
 }
