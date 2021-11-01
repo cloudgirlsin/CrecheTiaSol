@@ -448,6 +448,22 @@ alteração na pag voluntariado
 .coluna-esquerda {
   margin-right: 15px;
 }
+.contribuicao {
+  width: 100%;
+}
+.itens-voluntariado ul {
+  margin-top: 0%;
+  list-style: none;
+  width: 100%;
+  padding-right: 5px;
+}
+.itens-voluntariado li{
+  margin-top: 3%;
+  text-decoration :none;
+}
+.lista-areas-voluntariado{
+  width: 100%;
+}
 
 @media screen and (max-width: 900px) {
   #mudar-display {
@@ -1100,6 +1116,14 @@ section {
   color: #ff7300;
   font-family: "Poppins", sans-serif;
 }
+.qrcode{
+  align-items: center;
+}
+.qrcode img{
+  width: 150px;
+  height: 150px;
+}
+
 @media screen and (max-width: 991px) {
     .itens-doacoes ul{
       text-align: initial;
@@ -1111,6 +1135,9 @@ section {
       text-align: left;
       width: 100%;
       padding: 0 0 0 0;
+    }
+    .qrcode{
+      display: none!important;
     }
   }
 /*----------
