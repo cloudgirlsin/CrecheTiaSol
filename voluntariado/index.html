@@ -89,20 +89,17 @@
             Seja também um de nossos voluntários preenchendo o formulário abaixo!
           </h4>
         </div>
-        <div class="row content d-flex justify-content-center">
-          <div class="col-lg-8">
-            <p class="text-center"><strong>Possíveis áreas de contribuição:</strong></p>
-                   
+        <div class="row content">
+          <div class="col-lg-8 contribuicao d-flex justify-content-center">
+            <p class="text-center"><strong>Possíveis áreas de contribuição:</strong></p>               
           </div>
 
-          <div class="col-lg-8 pt-lg-0">
-            <ul style="list-style: none;">
-
-              <li><i class="fas fa-fw fa-book-reader icone-voluntarios"></i><strong>Educação:</strong> Auxiliar e acompanhar a educação infantil.</li>
-              <li><i class="fas fa-fw fa-child icone-voluntarios"></i><strong>Recreação:</strong> Ajudar na criação de momentos de lazer.</li>
-              <li><i class="fas fa-fw fa-utensils icone-voluntarios"></i><strong>Alimentação:</strong> Montar o cardápio, preparar os alimentos e servir.</li>
-              <li><i class="fas fa-broom icone-voluntarios"></i><strong>Serviços Gerais:</strong> Limpeza, manutenção e organização.</li>
-
+          <div class="col-lg-12 pt-lg-0 itens-voluntariado">
+            <ul class="d-flex flex-wrap justify-content-center lista-areas-voluntariado">
+              <li class = "col-lg-6" ><i class="fas fa-fw fa-book-reader icone-voluntarios"></i><strong>Educação:</strong> Auxiliar e acompanhar a educação infantil.</li>
+              <li class = "col-lg-6"><i class="fas fa-fw fa-child icone-voluntarios"></i><strong>Recreação:</strong> Ajudar na criação de momentos de lazer.</li>
+              <li class = "col-lg-6"><i class="fas fa-fw fa-utensils icone-voluntarios"></i><strong>Alimentação:</strong> Montar o cardápio, preparar os alimentos e servir.</li>
+              <li class = "col-lg-6"><i class="fas fa-broom icone-voluntarios"></i><strong>Serviços Gerais:</strong> Limpeza, manutenção e organização.</li>
             </ul>
 
           </div>
@@ -111,7 +108,7 @@
       </div>
       <!-- End About Section -->
 
-      <section id="contact" class="contact" >
+      <section id="contact" class="contact"  style="padding-bottom: 10px" >
         <div class="container margem-mobile" data-aos="fade-up">
           <div class="row mt-5 view-mobile">
             <h2 class = "topicos-destacados">Preencha o formulário:</h2>
@@ -119,7 +116,7 @@
           </div>
           <form action="contact.php" method="post" role="form" class="php-email-form">
               <div class="col-lg-12 d-flex form-row" id="mudar-display">
-                <div class="col-md-6 coluna-esquerda">
+                <div class="col-md-6 coluna-esquerda-contato">
                   <div class="form-group">
                     <label class="col-form-label">Nome Completo</label>
                     <input type="text" name="name" class="form-control box-contato" id="name" placeholder="Digite seu nome" required
@@ -155,7 +152,7 @@
                     <div class="validate"></div>
                   </div>
                 </div>
-                <div class="col-md-6 coluna-direita">
+                <div class="col-md-6 coluna-direita-contato">
                   <div class="form-group">
                       <label class="col-form-label">Digite uma mensagem</label>
                       <textarea class="form-control box-contato" name="message" rows="10" data-rule="required"
