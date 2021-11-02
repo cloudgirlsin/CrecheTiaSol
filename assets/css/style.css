@@ -1987,6 +1987,10 @@ section {
   background: #ff9946;
 }
 
+.botao-contato-padding {
+  padding-top: 15px;
+}
+
 .div-mapa-creche {
   padding: 20px 0px 20px 0px;
 }
