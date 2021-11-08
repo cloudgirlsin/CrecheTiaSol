@@ -9,7 +9,7 @@
 
 
 ## :clipboard: Descrição
-<p>O projeto Cloud Girls, além de promover a diversidade na área de tecnologia, também promove ações sociais. Durante a mentoria de carreira do Cloud Girls, algumas das mentees desenvolveram o site da Creche Tia Sol, ##########. Foram utilizados templates de Bootstrap e muitas horas de código e teste. Aqui temos o resultado final, mas que ainda está sujeito a alteração por parte das antigas e futuras mentees do grupo.</p> 
+<p>O projeto Cloud Girls, além de promover a diversidade na área de tecnologia, também promove ações sociais. Durante a mentoria de carreira do Cloud Girls, algumas das mentees desenvolveram o site da Creche Tia Sol, www.crechetiasol.com.br. Foram utilizados templates de Bootstrap e muitas horas de código e teste. Aqui temos o resultado final, mas que ainda está sujeito a alteração por parte das antigas e futuras mentees do grupo.</p> 
 
 ### :ballot_box_with_check: Funcionalidades
 - Banner com título sobreposto
@@ -35,7 +35,7 @@
 - [:lock: Licença](#lock-licença)
 
 ## :rocket: Deploy
-[Site  da Creche Tia Sol](Colocar o site)
+[Site da Creche Tia Sol]((http://www.crechetiasol.com.br/))
 
 ## :warning: Pré-requisitos
 - Editor de texto
@@ -54,7 +54,7 @@ git clone https://github.com/cloudgirlsin/CrecheTiaSol.git
 <p>2. Como os arquivos de bootstrap já estão instalados, basta abrir no seu editor de texto favorito.</p>
 
 ## :interrobang: Solução de problemas
-<p>Para ver os problemas que surgiram durante o desenvolvimento e as soluções que encontramos, acesse as [issues do projeto](https://github.com/cloudgirlsin/site/issues)</p>
+<p>Para ver os problemas que surgiram durante o desenvolvimento e as soluções que encontramos, acesse as [issues do projeto](https://github.com/cloudgirlsin/CrecheTiaSol/issues)</p>
 
 ## :cloud: Contribuintes
 
